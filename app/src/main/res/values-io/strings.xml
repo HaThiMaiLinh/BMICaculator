@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="tv_title_splash">Kalkulator BMI</string>
+    <string name="tv_calculator">Kalkulator</string>
+    <string name="tv_bmi">BMI</string>
+    <string name="tv_recent">Terkini</string>
+    <string name="tv_about">Tentang</string>
+    <string name="tv_setting">Pengaturan</string>
+    <string name="tv_statistics">Statistik</string>
+    <string name="tv_des_splash">Tindakan ini dapat berisi iklan</string>
+    <string name="tv_language">Bahasa</string>
+    <string name="english">Bahasa inggris</string>
+    <string name="spanish">Orang Spanyol</string>
+    <string name="french">Perancis</string>
+    <string name="hindi">Hindi</string>
+    <string name="portugeese">Portugis</string>
+
+    //tutorial
+    <string name="tv_next">Berikutnya</string>
+    <string name="tv_welcome">Selamat Datang di</string>
+    <string name="title_tutorial1">Kalkulator BMI</string>
+    <string name="title_tutorial2">Statistik</string>
+    <string name="title_tutorial3">Menyimpan</string>
+    <string name="des_tutorial1">Dengan menggunakan informasi berat dan tinggi badan. Anda dapat dengan mudah menghitung indeks massa tubuh dan melihat status Anda</string>
+    <string name="des_tutorial2">Memungkinkan statistik data yang dihitung. Dan semua informasi Anda dijaga kerahasiaannya</string>
+    <string name="des_tutorial3">Simpan informasi Anda dan akses kapan pun Anda mau</string>
+
+    <string name="menu_calculator">Kalkulator</string>
+    <string name="menu_satistics">Statistik</string>
+    <string name="menu_setting">Pengaturan</string>
+    <string name="menu_about">Tentang</string>
+
+    //calculator
+    <string name="tv_time_calculator">Waktu</string>
+    <string name="tv_gender_calculator">Jenis kelamin</string>
+    <string name="tv_weight_calculator">Berat</string>
+    <string name="tv_height_calculator">Tinggi</string>
+    <string name="tv_age_calculator">Usia</string>
+    <string name="tv_male">Pria</string>
+    <string name="tv_female">Perempuan</string>
+    <string name="btn_calculator">Menghitung</string>
+
+    //about
+    <string name="tab_adults">Dewasa</string>
+    <string name="tab_teenagers">Remaja</string>
+    <string name="tv_des_content_adults">BMI untuk Dewasa</string>
+    <string name="tv_des_content_teenagers">BMI untuk Remaja</string>
+    <string name="tv_des_age_adults">  (>21 tahun)</string>
+    <string name="tv_des_age_teenagers">  (&lt;= 20 tahun)</string>
+    <string name="tv_des_16">Sangat kekurangan berat badan</string>
+    <string name="tv_154">&lt; 15.4</string>
+    <string name="tv_154_255">15.4 – 25.5</string>
+    <string name="tv_226_263">22.6 – 26.3</string>
+    <string name="tv_264">&gt;= 26.4</string>
+
+    <string name="tv_16">&lt; 16</string>
+    <string name="severely_underweight">Sangat kurus</string>
+    <string name="tv_16_169">16.0 – 16.9</string>
+    <string name="underweight">Berat badan kurang</string>
+    <string name="tv_17_184">17.0 – 18.4</string>
+    <string name="normal">Normal</string>
+    <string name="tv_185_249">18.5 – 24.9</string>
+    <string name="overweight">Kegemukan</string>
+    <string name="tv_25_299">25.0 – 29.9</string>
+    <string name="obese_Class_I">Obesitas Kelas I</string>
+    <string name="tv_30_349">30.0 – 34.9</string>
+    <string name="obese_Class_II">Obesitas Kelas II</string>
+    <string name="tv_35_399">35.0 – 39.9</string>
+    <string name="obese_class_III">Obesitas Kelas III</string>
+    <string name="tv_40"> &gt;= 40.0</string>
+
+    //setting
+    <string name="tv_lang">Bahasa</string>
+    <string name="tv_share">Membagikan</string>
+    <string name="tv_rate">Nilai kami</string>
+    <string name="tv_version">Versi: kapan</string>
+    <string name="tv_policy">Privasi &amp; Kebijakan</string>
+
+    <string name="is_value_weight">Anda belum memasukkan berat badan Anda</string>
+    <string name="is_value_height">Anda belum memasukkan tinggi badan Anda</string>
+    <string name="is_value_gender">Anda harus memilih jenis kelamin</string>
+
+    //bmi
+    <string name="tv_normal_weight">Berat badan normal</string>
+    <string name="tv_normal_weight_index">47.3 – 63.9kg</string>
+    <string name="tv_difference">Perbedaan</string>
+    <string name="btn_save">Menyimpan</string>
+
+    //recent
+    <string name="tv_recent_records">Tidak ada catatan terbaru</string>
+    <string name="tv_date">Tanggal</string>
+
+    //statistics
+    <string name="tv_update">Memperbarui</string>
+    <string name="tab_daily">Sehari-hari</string>
+    <string name="tab_weekly">Mingguan</string>
+    <string name="tab_monthly">Bulanan</string>
+
+    //rate
+    <string name="title_rate_0">Apakah Anda menyukai aplikasi ini?</string>
+    <string name="des_rate_0">Beri tahu kami pengalaman Anda</string>
+
+    <string name="title_rate_1">Oh tidak!</string>
+    <string name="des_rate_1">Tolong beri kami umpan balik</string>
+
+    <string name="title_rate_2">Oh tidak!</string>
+    <string name="des_rate_2">Tolong beri kami umpan balik</string>
+
+    <string name="title_rate_3">Oh tidak!</string>
+    <string name="des_rate_3">Tolong beri kami umpan balik</string>
+
+    <string name="title_rate_4">Kami juga mencintaimu!</string>
+    <string name="des_rate_4">Terima kasih atas tanggapan Anda</string>
+
+    <string name="title_rate_5">Kami juga mencintaimu!</string>
+    <string name="des_rate_5">Terima kasih atas tanggapan Anda</string>
+    <string name="btn_rate">Kecepatan</string>
+    <string name="btn_exit">KELUAR</string>
+
+    //unit
+    <string name="lb">lb</string>
+    <string name="kg">kg</string>
+    <string name="st">st</string>
+
+    <string name="cm">cm</string>
+    <string name="ft">ft</string>
+
+    //dialog
+    <string name="title_dialog">Hapus konfirmasi</string>
+    <string name="des_dialog">Apakah Anda yakin ingin menghapus catatan ini?</string>
+    <string name="btn_cancel">Membatalkan</string>
+    <string name="btn_delete">Menghapus</string>
+    <string name="btn_ok">OKE</string>
+
+    <string name="January">Januari</string>
+    <string name="February">Februari</string>
+    <string name="March">Berbaris</string>
+    <string name="April">April</string>
+    <string name="May">Mungkin</string>
+    <string name="June">Juni</string>
+    <string name="July">Juli</string>
+    <string name="August">Agustus</string>
+    <string name="September">September</string>
+    <string name="October">Oktober</string>
+    <string name="November">November</string>
+    <string name="December">Desember</string>
+
+    <string name="tv_permission">Izin</string>
+    <string name="tv_notification">Pemberitahuan</string>
+    <string name="tv_go">Ayo</string>
+    <string name="tv_Read_Storage">Penyimpanan</string>
+    <string name="permission_setting">Pengaturan</string>
+    <string name="requested_permission_title">Diperlukan Izin</string>
+    <string name="agree">Setuju</string>
+    <string name="requested_permission_other_app">Tindakan ini memerlukan pemberian akses ke bilah status perangkat. Apakah Anda yakin?</string>
+    <string name="requested_permission_message">Fitur ini tidak tersedia karena fitur ini memerlukan izin yang telah Anda tolak. Harap izinkan izin ini dari pengaturan untuk melangkah lebih jauh.</string>
+    <string name="tv_des_permission"><![CDATA[<font color=\'#51A8FF\'>BMI Calculator </font> memerlukan izin untuk menggunakan Notifikasi.]]></string>
+    <string name="tv_des_permission_12"><![CDATA[<font color=\'#51A8FF\'>BMI Calculator </font> memerlukan izin untuk menggunakan Penyimpanan.]]></string>
+    <string name="bmi_error">Silakan masukkan nilai sebenarnya</string>
+    <string name="enter_error">Anda harus memasukkan antara 1 dan 300</string>
+    <string name="toast_date">Waktu masukan kompensasi terlampaui</string>
+    <string name="toast_lb">Anda harus memasukkan antara 2.2 dan 661.386</string>
+    <string name="toast_st">Anda harus memasukkan antara 0,157 dan 47,24</string>
+    <string name="toast_ft">Anda harus memasukkan antara 0,033 dan 9,842</string>
+    <string name="toast_cm">Anda harus memasukkan antara 1 dan 300</string>
+</resources>

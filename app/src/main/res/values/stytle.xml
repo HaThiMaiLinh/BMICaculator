@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="tv_title_splash">
+        <item name="android:textSize">@dimen/_26ssp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:fontFamily">@font/bubblegum_sans</item>
+        <item name="android:textStyle">normal</item>
+        <item name="lineHeight">20dp</item>
+    </style>
+
+    <style name="tv_item">
+        <item name="android:textSize">@dimen/_15ssp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:fontWeight">600</item>
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="tv_item_2">
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:fontFamily">@font/poppins</item>
+        <item name="android:textStyle">normal</item>
+        <item name="lineHeight">22dp</item>
+    </style>
+
+    <style name="tv_item_bmi">
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textStyle">normal</item>
+        <item name="lineHeight">20dp</item>
+    </style>
+
+    <style name="tv_tutorial">
+        <item name="android:textSize">@dimen/_14ssp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="tv_next_tutorial">
+        <item name="android:textSize">@dimen/_14ssp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:fontFamily">@font/poppins_medium2</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="tv_title">
+        <item name="android:textSize">@dimen/_20ssp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontWeight">600</item>
+    </style>
+    <style name="tv_title_tutorial">
+        <item name="android:textSize">@dimen/_20ssp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:fontFamily">@font/poppins_medium2</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontWeight">600</item>
+    </style>
+
+    <style name="tv_title_language">
+        <item name="android:textSize">@dimen/_20ssp</item>
+        <item name="android:gravity">start</item>
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontWeight">600</item>
+        <item name="lineHeight">20dp</item>
+    </style>
+
+    <style name="tv_appName">
+        <item name="android:textSize">@dimen/_14ssp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontWeight">600</item>
+        <item name="lineHeight">20dp</item>
+    </style>
+
+    <style name="tv_title_rate">
+        <item name="android:textSize">@dimen/_16ssp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontWeight">600</item>
+    </style>
+
+    <style name="tv_des_about">
+        <item name="android:textSize">@dimen/_10ssp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontWeight">600</item>
+        <item name="lineHeight">20dp</item>
+    </style>
+
+    <style name="tv_des_age_about">
+        <item name="android:textSize">@dimen/_10ssp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:fontFamily">@font/poppins</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontWeight">600</item>
+    </style>
+
+    <style name="tv_item_language">
+        <item name="android:textSize">@dimen/_13ssp</item>
+        <item name="android:gravity">start</item>
+        <item name="android:fontFamily">@font/poppins</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontWeight">600</item>
+        <item name="lineHeight">20dp</item>
+    </style>
+
+    <style name="tv_title_main">
+        <item name="android:textSize">@dimen/_20ssp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:textStyle">bold</item>
+        <item name="lineHeight">20dp</item>
+    </style>
+
+    <style name="tv_time_bmi">
+        <item name="android:textSize">@dimen/_15ssp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:fontFamily">@font/poppins</item>
+        <item name="android:textStyle">bold</item>
+        <item name="lineHeight">20dp</item>
+    </style>
+
+    <style name="tv_item_recent_1">
+        <item name="android:textSize">@dimen/_10ssp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:fontFamily">@font/poppins</item>
+        <item name="lineHeight">20dp</item>
+    </style>
+
+    <style name="tv_item_recent_2">
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="lineHeight">20dp</item>
+    </style>
+
+</resources>

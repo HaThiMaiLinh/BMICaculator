@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="transfer">#00000000</color>
+
+    <color name="bg">#F8FAFF</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="white_fff">#FFF</color>
+    <color name="tv_color_blue">#51A8FF</color>
+    <color name="item_bottom_bar_color">#A6080C2F</color>
+    <color name="title_main">#080C2F</color>
+    <color name="item_main">#CC080C2F</color>
+    <color name="strock">#33B2B2B2</color>
+    <color name="bg_progress">#D9D9D9</color>
+    <color name="number_picker">#4D080C2F</color>
+    <color name="number_picker_2">#A6080C2F</color>
+    <color name="underweight">#82D142</color>
+    <color name="underweight20">#30C1FD</color>
+    <color name="very_severely_underweight">#00658F</color>
+    <color name="severely_underweight">#26A1A9</color>
+    <color name="normal">#8DC03F</color>
+    <color name="normal20">#36FF27</color>
+    <color name="overweight">#F68121</color>
+    <color name="overweight20">#FAC90D</color>
+    <color name="obese_class_I">#CA6E2F</color>
+    <color name="obese_class_I20">#FD7308</color>
+    <color name="obese_class_II">#E34D28</color>
+    <color name="obese_class_III">#F03C25</color>
+    <color name="tv_item">#A6080C2F</color>
+    <color name="gray">#858585</color>
+    <color name="red">#F36A6A</color>
+</resources>

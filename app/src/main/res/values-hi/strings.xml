@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="tv_title_splash">बीएमआई कैलकुलेटर</string>
+    <string name="tv_calculator">कैलकुलेटर</string>
+    <string name="tv_bmi">बीएमआई</string>
+    <string name="tv_recent">हाल ही का</string>
+    <string name="tv_about">के बारे में</string>
+    <string name="tv_setting">समायोजन</string>
+    <string name="tv_statistics">आंकड़े</string>
+    <string name="tv_des_splash">इस क्रिया में विज्ञापन शामिल हो सकते हैं</string>
+    <string name="tv_language">भाषा</string>
+    <string name="english">अंग्रेज़ी</string>
+    <string name="spanish">स्पैनिश</string>
+    <string name="french">फ़्रेंच</string>
+    <string name="hindi">हिंदी</string>
+    <string name="portugeese">पुर्तगाली</string>
+
+    //tutorial
+    <string name="tv_next">अगला</string>
+    <string name="tv_welcome">आपका स्वागत है</string>
+    <string name="title_tutorial1">बीएमआई कैलकुलेटर</string>
+    <string name="title_tutorial2">आंकड़े</string>
+    <string name="title_tutorial3">बचाना</string>
+    <string name="des_tutorial1">अपने वजन और ऊंचाई की जानकारी का उपयोग करके, आप आसानी से अपने बॉडी मास इंडेक्स की गणना कर सकते हैं और अपनी स्थिति देख सकते हैं</string>
+    <string name="des_tutorial2">परिकलित डेटा के आँकड़ों की अनुमति देता है। और आपकी सारी जानकारी गोपनीय रखी जाती है</string>
+    <string name="des_tutorial3">अपनी जानकारी सहेजें और जब चाहें उस तक पहुंचें</string>
+
+    <string name="menu_calculator">कैलकुलेटर</string>
+    <string name="menu_satistics">आंकड़े</string>
+    <string name="menu_setting">सेटिंग</string>
+    <string name="menu_about">के बारे में</string>
+
+    //calculator
+    <string name="tv_time_calculator">समय</string>
+    <string name="tv_gender_calculator">लिंग</string>
+    <string name="tv_weight_calculator">वज़न</string>
+    <string name="tv_height_calculator">ऊंचाई</string>
+    <string name="tv_age_calculator">आयु</string>
+    <string name="tv_male">पुरुष</string>
+    <string name="tv_female">महिला</string>
+    <string name="btn_calculator">गणना</string>
+
+    //about
+    <string name="tab_adults">वयस्कों</string>
+    <string name="tab_teenagers">किशोरों</string>
+    <string name="tv_des_content_adults">वयस्कों के लिए बीएमआई</string>
+    <string name="tv_des_content_teenagers">किशोरों के लिए बीएमआई</string>
+    <string name="tv_des_age_adults">  (>21 वर्ष पुराना)</string>
+    <string name="tv_des_age_teenagers">  (&lt;=20 वर्ष पुराना)</string>
+    <string name="tv_des_16">बहुत गंभीर रूप से कम वजन</string>
+    <string name="tv_154">&lt; 15.4</string>
+    <string name="tv_154_255">15.4 – 25.5</string>
+    <string name="tv_226_263">22.6 – 26.3</string>
+    <string name="tv_264">&gt;= 26.4</string>
+
+    <string name="tv_16">&lt; 16</string>
+    <string name="severely_underweight">गंभीर रूप से वजन</string>
+    <string name="tv_16_169">16.0 – 16.9</string>
+    <string name="underweight">वजन</string>
+    <string name="tv_17_184">17.0 – 18.4</string>
+    <string name="normal">सामान्य</string>
+    <string name="tv_185_249">18.5 – 24.9</string>
+    <string name="overweight">अधिक वजन</string>
+    <string name="tv_25_299">25.0 – 29.9</string>
+    <string name="obese_Class_I">मोटापा वर्ग I</string>
+    <string name="tv_30_349">30.0 – 34.9</string>
+    <string name="obese_Class_II">मोटापा वर्ग II</string>
+    <string name="tv_35_399">35.0 – 39.9</string>
+    <string name="obese_class_III">मोटापा वर्ग III</string>
+    <string name="tv_40"> &gt;= 40.0</string>
+
+    //setting
+    <string name="tv_lang">भाषा</string>
+    <string name="tv_share">शेयर करना</string>
+    <string name="tv_rate">हमें रेटिंग दें</string>
+    <string name="tv_version">संस्करण</string>
+    <string name="tv_policy">गोपनीयता एवं &amp; नीति</string>
+
+    <string name="is_value_weight">आपने अभी तक अपना वज़न दर्ज नहीं किया है</string>
+    <string name="is_value_height">आपने अभी तक अपनी ऊंचाई दर्ज नहीं की है</string>
+    <string name="is_value_gender">आपको लिंग का चयन करना होगा</string>
+
+    //bmi
+    <string name="tv_normal_weight">सामान्य वज़न</string>
+    <string name="tv_normal_weight_index">47.3 – 63.9 किग्रा</string>
+    <string name="tv_difference">अंतर</string>
+    <string name="btn_save">बचाना</string>
+
+    //recent
+    <string name="tv_recent_records">कोई हालिया रिकॉर्ड नहीं</string>
+    <string name="tv_date">तारीख</string>
+
+    //statistics
+    <string name="tv_update">अद्यतन</string>
+    <string name="tab_daily">दैनिक</string>
+    <string name="tab_weekly">साप्ताहिक</string>
+    <string name="tab_monthly">महीने के</string>
+
+    //rate
+    <string name="title_rate_0">क्या आपको ऐप पसंद है?</string>
+    <string name="des_rate_0">हमें अपना अनुभव बताएं</string>
+
+    <string name="title_rate_1">अरे नहीं!</string>
+    <string name="des_rate_1">कृपया हमें कुछ प्रतिक्रिया दें</string>
+
+    <string name="title_rate_2">अरे नहीं!</string>
+    <string name="des_rate_2">कृपया हमें कुछ प्रतिक्रिया दें</string>
+
+    <string name="title_rate_3">अरे नहीं!</string>
+    <string name="des_rate_3">कृपया हमें कुछ प्रतिक्रिया दें</string>
+
+    <string name="title_rate_4">हम भी तुमसे प्यार करते हैं!</string>
+    <string name="des_rate_4">आपकी प्रतिक्रिया के लिए धन्यवाद</string>
+
+    <string name="title_rate_5">हम भी तुमसे प्यार करते हैं!</string>
+    <string name="des_rate_5">आपकी प्रतिक्रिया के लिए धन्यवाद</string>
+    <string name="btn_rate">दर</string>
+    <string name="btn_exit">बाहर निकलना</string>
+
+    //unit
+    <string name="lb">lb</string>
+    <string name="kg">kg</string>
+    <string name="st">st</string>
+
+    <string name="cm">cm</string>
+    <string name="ft">ft</string>
+
+    //dialog
+    <string name="title_dialog">पुष्टि हटाएँ</string>
+    <string name="des_dialog">क्या आप वाकई यह रिकॉर्ड हटाना चाहते हैं?</string>
+    <string name="btn_cancel">रद्द करना</string>
+    <string name="btn_delete">मिटाना</string>
+    <string name="btn_ok">ठीक है</string>
+
+    <string name="January">जनवरी</string>
+    <string name="February">फ़रवरी</string>
+    <string name="March">मार्च</string>
+    <string name="April">अप्रैल</string>
+    <string name="May">मई</string>
+    <string name="June">जून</string>
+    <string name="July">जुलाई</string>
+    <string name="August">अगस्त</string>
+    <string name="September">सितम्बर</string>
+    <string name="October">अक्टूबर</string>
+    <string name="November">नवंबर</string>
+    <string name="December">दिसंबर</string>
+
+    <string name='tv_permission'>अनुमति</string>
+    <string name='tv_notification'>सूचनाएं</string>
+    <string name='tv_go'>जाएं</string>
+    <string name='tv_Read_Storage'>भंडारण</string>
+    <string name='permission_setting'>सेटिंग</string>
+    <string name='requested_permission_title'>अनुमति आवश्यक है</string>
+    <string name='agree'>सहमत</string>
+    <string name='requested_permission_other_app'>इस क्रिया के लिए डिवाइस के स्टेटस बार तक पहुंच प्रदान करना आवश्यक है। क्या आप निश्चित हैं?</string>
+    <string name='requested_permission_message'>यह सुविधा अनुपलब्ध है क्योंकि इस सुविधा के लिए अनुमति की आवश्यकता है जिसे आपने अस्वीकार कर दिया है। कृपया आगे बढ़ने के लिए सेटिंग्स से इस अनुमति की अनुमति दें।</string>
+    <string name='enter_error'>आपको 0 और 300 के बीच दर्ज करना होगा</string>
+    <string name="tv_des_permission_12"><![CDATA[<font color=\'#51A8FF\'>BMI Calculator </font> को स्टोरेज का उपयोग करने के लिए अनुमति की आवश्यकता है।]]></string>
+    <string name='bmi_error'>कृपया वास्तविक मान दर्ज करें</string>
+    <string name='toast_date'>मुआवजा इनपुट समय पार हो गया</string>
+    <string name='toast_lb'>आपको 2.2 और 661,386 के बीच दर्ज करना होगा</string>
+    <string name='toast_st'>आपको 0.157 और 47.24 के बीच दर्ज करना होगा</string>
+    <string name='toast_ft'>आपको 0.033 और 9.842 के बीच दर्ज करना होगा</string>
+    <string name='toast_cm'>आपको 1 और 300 के बीच दर्ज करना होगा</string>
+    <string name="tv_des_permission"><![CDATA[<font color=\'#51A8FF\'>BMI Calculator </font> को अधिसूचना का उपयोग करने के लिए अनुमति की आवश्यकता है।]]></string>
+</resources>

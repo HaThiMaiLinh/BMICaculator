@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="tv_title_splash">Calculadora de IMC</string>
+    <string name="tv_calculator">Calculadora</string>
+    <string name="tv_bmi">IMC</string>
+    <string name="tv_recent">Reciente</string>
+    <string name="tv_about">Acerca de</string>
+    <string name="tv_setting">Ajustes</string>
+    <string name="tv_statistics">Estadísticas</string>
+    <string name="tv_des_splash">Esta acción puede contener anuncios.</string>
+    <string name="tv_language">Idioma</string>
+    <string name="english">Inglés</string>
+    <string name="spanish">Español</string>
+    <string name="french">Francés</string>
+    <string name="hindi">hindi</string>
+    <string name="portugeese">portugués</string>
+
+    //tutorial
+    <string name="tv_next">Próximo</string>
+    <string name="tv_welcome">Bienvenido a</string>
+    <string name="title_tutorial1">Calculadora de IMC</string>
+    <string name="title_tutorial2">Estadísticas</string>
+    <string name="title_tutorial3">Ahorrar</string>
+    <string name="des_tutorial1">Al utilizar la información de su peso y altura, puede calcular fácilmente su índice de masa corporal y ver su estado.</string>
+    <string name="des_tutorial2">Permite estadísticas de datos calculados. Y toda su información se mantiene confidencial</string>
+    <string name="des_tutorial3">Guarda tu información y accede a ella cuando quieras</string>
+
+    <string name="menu_calculator">Calculadora</string>
+    <string name="menu_satistics">Estadísticas</string>
+    <string name="menu_setting">Configuración</string>
+    <string name="menu_about">Acerca de</string>
+
+    //calculator
+    <string name="tv_time_calculator">Tiempo</string>
+    <string name="tv_gender_calculator">Género</string>
+    <string name="tv_weight_calculator">Peso</string>
+    <string name="tv_height_calculator">Altura</string>
+    <string name="tv_age_calculator">Edad</string>
+    <string name="tv_male">Masculino</string>
+    <string name="tv_female">Femenino</string>
+    <string name="btn_calculator">Calcular</string>
+
+    //about
+    <string name="tab_adults">Adultos</string>
+    <string name="tab_teenagers">Adolescentes</string>
+    <string name="tv_des_content_adults">IMC para adultos</string>
+    <string name="tv_des_content_teenagers">IMC para adolescentes</string>
+    <string name="tv_des_age_adults">  (>21 años)</string>
+    <string name="tv_des_age_teenagers">  (&lt;= 20 años)</string>
+    <string name="tv_des_16">Muy gravemente bajo peso</string>
+    <string name="tv_154">&lt; 15,4</string>
+    <string name="tv_154_255">15,4 – 25,5</string>
+    <string name="tv_226_263">22,6 – 26,3</string>
+    <string name="tv_264">>= 26,4</string>
+
+    <string name="tv_16">&lt; dieciséis</string>
+    <string name="severely_underweight">Severamente bajo de peso</string>
+    <string name="tv_16_169">16,0 – 16,9</string>
+    <string name="underweight">Bajo peso</string>
+    <string name="tv_17_184">17,0 – 18,4</string>
+    <string name="normal">Normal</string>
+    <string name="tv_185_249">18,5 – 24,9</string>
+    <string name="overweight">Exceso de peso</string>
+    <string name="tv_25_299">25,0 – 29,9</string>
+    <string name="obese_Class_I">Obesidad Clase I</string>
+    <string name="tv_30_349">30,0 – 34,9</string>
+    <string name="obese_Class_II">Obesidad Clase II</string>
+    <string name="tv_35_399">35,0 – 39,9</string>
+    <string name="obese_class_III">Obesidad Clase III</string>
+    <string name="tv_40"> >= 40,0</string>
+
+    //setting
+    <string name="tv_lang">Idioma</string>
+    <string name="tv_share">Compartir</string>
+    <string name="tv_rate">Nos califica</string>
+    <string name="tv_version">Versión</string>
+    <string name="tv_policy">Privacidad y Política</string>
+
+    <string name="is_value_weight">Aún no has ingresado tu peso</string>
+    <string name="is_value_height">Aún no has ingresado tu altura</string>
+    <string name="is_value_gender">Necesitas seleccionar género</string>
+
+    //bmi
+    <string name="tv_normal_weight">Peso normal</string>
+    <string name="tv_normal_weight_index">47,3 – 63,9 kilogramos</string>
+    <string name="tv_difference">Diferencia</string>
+    <string name="btn_save">Ahorrar</string>
+
+    //recent
+    <string name="tv_recent_records">Sin registros recientes</string>
+    <string name="tv_date">Fecha</string>
+
+    //statistics
+    <string name="tv_update">Actualizar</string>
+    <string name="tab_daily">A diario</string>
+    <string name="tab_weekly">Semanalmente</string>
+    <string name="tab_monthly">Mensual</string>
+
+    //rate
+    <string name="title_rate_0">¿Te gusta la aplicación?</string>
+    <string name="des_rate_0">Cuéntanos tu experiencia</string>
+
+    <string name="title_rate_1">¡Oh, no!</string>
+    <string name="des_rate_1">Por favor danos tu opinión</string>
+
+    <string name="title_rate_2">¡Oh, no!</string>
+    <string name="des_rate_2">Por favor danos tu opinión</string>
+
+    <string name="title_rate_3">¡Oh, no!</string>
+    <string name="des_rate_3">Por favor danos tu opinión</string>
+
+    <string name="title_rate_4">¡Te amamos tambien!</string>
+    <string name="des_rate_4">Gracias por tus comentarios</string>
+
+    <string name="title_rate_5">¡Te amamos tambien!</string>
+    <string name="des_rate_5">Gracias por tus comentarios</string>
+    <string name="btn_rate">Tasa</string>
+    <string name="btn_exit">Salida</string>
+
+    //unit
+    <string name="lb">lb</string>
+    <string name="kg">kg</string>
+    <string name="st">st</string>
+
+    <string name="cm">cm</string>
+    <string name="ft">ft</string>
+
+    //dialog
+    <string name="title_dialog">Eliminar confirmar</string>
+    <string name="des_dialog">¿Está seguro de que desea eliminar este registro?</string>
+    <string name="btn_cancel">Cancelar</string>
+    <string name="btn_delete">Borrar</string>
+    <string name="btn_ok">DE ACUERDO</string>
+
+    <string name="January">Enero</string>
+    <string name="February">Febrero</string>
+    <string name="March">Marzo</string>
+    <string name="April">Abril</string>
+    <string name="May">Puede</string>
+    <string name="June">Junio</string>
+    <string name="July">Julio</string>
+    <string name="August">Agosto</string>
+    <string name="September">Septiembre</string>
+    <string name="October">Octubre</string>
+    <string name="November">Noviembre</string>
+    <string name="December">Diciembre</string>
+
+    <string name="tv_permission">Permiso</string>
+    <string name="tv_notification">Notificaciones</string>
+    <string name="tv_go">Ir</string>
+    <string name="tv_Read_Storage">Almacenamiento</string>
+    <string name="permission_setting">Configuración</string>
+    <string name="requested_permission_title">Permiso requerido</string>
+    <string name="agree">De acuerdo</string>
+    <string name="requested_permission_other_app">Esta acción requiere otorgar acceso a la barra de estado del dispositivo. ¿Estás seguro?</string>
+    <string name="requested_permission_message">Esta función no está disponible porque requiere un permiso que usted ha denegado. Por favor, permita este permiso desde la configuración para continuar.</string>
+    <string name="tv_des_permission"><![CDATA[<font color=\'#51A8FF\'>BMI Calculator </font> requiere permiso para usar la Notificación.]]></string>
+    <string name="tv_des_permission_12"><![CDATA[<font color=\'#51A8FF\'>BMI Calculator </font> requiere permiso para usar el Almacenamiento.]]></string>
+    <string name="bmi_error">Ingrese el valor real</string>
+    <string name="enter_error">Debes ingresar entre 1 y 300</string>
+    <string name="toast_date">Tiempo de entrada de compensación excedido</string>
+    <string name="toast_lb">Debes ingresar entre 2,2 y 661.386</string>
+    <string name="toast_st">Debes ingresar entre 0,157 y 47,24</string>
+    <string name="toast_ft">Debes ingresar entre 0,033 y 9,842</string>
+    <string name="toast_cm">Debes ingresar entre 1 y 300</string>
+</resources>

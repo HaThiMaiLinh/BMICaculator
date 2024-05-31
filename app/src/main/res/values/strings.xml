@@ -1,0 +1,167 @@
+<resources>
+    <string name="app_name" translatable="false">BMI Calculator</string>
+
+    <string name="tv_title_splash">BMI Calculator</string>
+    <string name="tv_calculator">Calculator</string>
+    <string name="tv_bmi">BMI</string>
+    <string name="tv_recent">Recent</string>
+    <string name="tv_about">About</string>
+    <string name="tv_setting">Settings</string>
+    <string name="tv_statistics">Statistics</string>
+    <string name="tv_des_splash">This action can contain ads</string>
+    <string name="tv_language">Language</string>
+    <string name="english">English</string>
+    <string name="spanish">Spanish</string>
+    <string name="french">French</string>
+    <string name="hindi">Hindi</string>
+    <string name="portugeese">Portugeese</string>
+
+    //tutorial
+    <string name="tv_next">Next</string>
+    <string name="tv_welcome">Welcome to</string>
+    <string name="title_tutorial1">BMI Calculator</string>
+    <string name="title_tutorial2">Statistics</string>
+    <string name="title_tutorial3">Save</string>
+    <string name="des_tutorial1">By using your weight and height information, you can easily calculate your body mass index and view your status</string>
+    <string name="des_tutorial2">Allows statistics of calculated data. And all your information is kept confidential</string>
+    <string name="des_tutorial3">Save your information and access it whenever you want</string>
+
+    <string name="menu_calculator">Calculator</string>
+    <string name="menu_satistics">Statistics</string>
+    <string name="menu_setting">Setting</string>
+    <string name="menu_about">About</string>
+
+    //calculator
+    <string name="tv_time_calculator">Time</string>
+    <string name="tv_gender_calculator">Gender</string>
+    <string name="tv_weight_calculator">Weight</string>
+    <string name="tv_height_calculator">Height</string>
+    <string name="tv_age_calculator">Age</string>
+    <string name="tv_male">Male</string>
+    <string name="tv_female">Female</string>
+    <string name="btn_calculator">Calculate</string>
+
+    //about
+    <string name="tab_adults">Adults</string>
+    <string name="tab_teenagers">Teenagers</string>
+    <string name="tv_des_content_adults">BMI for Adults</string>
+    <string name="tv_des_content_teenagers">BMI for Teenagers</string>
+    <string name="tv_des_age_adults">  (>21 years old)</string>
+    <string name="tv_des_age_teenagers">  (&lt;= 20 years old)</string>
+    <string name="tv_des_16">Very severely underweight</string>
+    <string name="tv_154">&lt; 15.4</string>
+    <string name="tv_154_255">15.4 – 25.5</string>
+    <string name="tv_226_263">22.6 – 26.3</string>
+    <string name="tv_264">&gt;= 26.4</string>
+
+    <string name="tv_16">&lt; 16</string>
+    <string name="severely_underweight">Severely underweight</string>
+    <string name="tv_16_169">16.0 – 16.9</string>
+    <string name="underweight">Underweight</string>
+    <string name="tv_17_184">17.0 – 18.4</string>
+    <string name="normal">Normal</string>
+    <string name="tv_185_249">18.5 – 24.9</string>
+    <string name="overweight">Overweight</string>
+    <string name="tv_25_299">25.0 – 29.9</string>
+    <string name="obese_Class_I">Obese Class I</string>
+    <string name="tv_30_349">30.0 – 34.9</string>
+    <string name="obese_Class_II">Obese Class II</string>
+    <string name="tv_35_399">35.0 – 39.9</string>
+    <string name="obese_class_III">Obese Class III</string>
+    <string name="tv_40"> &gt;= 40.0</string>
+
+    //setting
+    <string name="tv_lang">Language</string>
+    <string name="tv_share">Share</string>
+    <string name="tv_rate">Rate us</string>
+    <string name="tv_version">Version</string>
+    <string name="tv_policy">Privacy &amp; Policy</string>
+
+    <string name="is_value_weight">You have not entered your weight yet</string>
+    <string name="is_value_height">You have not entered your height yet</string>
+    <string name="is_value_gender">You need to select gender</string>
+
+    //bmi
+    <string name="tv_normal_weight">Normal weight</string>
+    <string name="tv_normal_weight_index">47.3 – 63.9 kg</string>
+    <string name="tv_difference">Difference</string>
+    <string name="btn_save">Save</string>
+
+    //recent
+    <string name="tv_recent_records">No recent records</string>
+    <string name="tv_date">Date</string>
+
+    //statistics
+    <string name="tv_update">Update</string>
+    <string name="tab_daily">Daily</string>
+    <string name="tab_weekly">Weekly</string>
+    <string name="tab_monthly">Monthly</string>
+
+    //rate
+    <string name="title_rate_0">Do you like the app?</string>
+    <string name="des_rate_0">Let us know your experience</string>
+
+    <string name="title_rate_1">Oh, no!</string>
+    <string name="des_rate_1">Please give us some feedback</string>
+
+    <string name="title_rate_2">Oh, no!</string>
+    <string name="des_rate_2">Please give us some feedback</string>
+
+    <string name="title_rate_3">Oh, no!</string>
+    <string name="des_rate_3">Please give us some feedback</string>
+
+    <string name="title_rate_4">We love you too!</string>
+    <string name="des_rate_4">Thanks for your feedback</string>
+
+    <string name="title_rate_5">We love you too!</string>
+    <string name="des_rate_5">Thanks for your feedback</string>
+    <string name="btn_rate">Rate</string>
+    <string name="btn_exit">Exit</string>
+
+    //unit
+    <string name="lb">lb</string>
+    <string name="kg">kg</string>
+    <string name="st">st</string>
+
+    <string name="cm">cm</string>
+    <string name="ft">ft</string>
+
+    //dialog
+    <string name="title_dialog">Delete confirm</string>
+    <string name="des_dialog">Are you sure you want to delete this record?</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_delete">Delete</string>
+    <string name="btn_ok">OK</string>
+
+    <string name="January">January</string>
+    <string name="February">February</string>
+    <string name="March">March</string>
+    <string name="April">April</string>
+    <string name="May">May</string>
+    <string name="June">June</string>
+    <string name="July">July</string>
+    <string name="August">August</string>
+    <string name="September">September</string>
+    <string name="October">October</string>
+    <string name="November">November</string>
+    <string name="December">December</string>
+
+    <string name="tv_permission">Permission</string>
+    <string name="tv_Read_Storage">Storage</string>
+    <string name="permission_setting">Setting</string>
+    <string name="requested_permission_title">Permission Required</string>
+    <string name="agree">Agree</string>
+    <string name="requested_permission_other_app">This action requires granting access to the device\'s status bar. Are you sure?</string>
+    <string name="requested_permission_message">This feature is unavailable because this feature requires permission that you have denied. Please allow this permission from settings to proceed further.</string>
+    <string name="tv_notification">Notifications</string>
+    <string name="tv_go">Go</string>
+    <string name="tv_des_permission"><![CDATA[<font color=\'#51A8FF\'>BMI Calculator </font> requires permission to use the Notification.]]></string>
+    <string name="tv_des_permission_12"><![CDATA[<font color=\'#51A8FF\'>BMI Calculator </font> requires permission to use the Storage.]]></string>
+    <string name="bmi_error">Please enter the actual value</string>
+    <string name="enter_error">You must enter between 1 and 300</string>
+    <string name="toast_date">Compensation input time exceeded</string>
+    <string name="toast_lb">You must enter between 2.2 and 661,386</string>
+    <string name="toast_st">You must enter between 0.157 and 47.24</string>
+    <string name="toast_ft">You must enter between 0.033 and 9.842</string>
+    <string name="toast_cm">You must enter between 1 and 300</string>
+</resources>

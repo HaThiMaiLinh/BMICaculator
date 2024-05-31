@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bg">
+
+        <TextView
+            android:id="@+id/tv_title_calculator"
+            style="@style/tv_title_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_32sdp"
+            android:text="@string/tv_calculator"
+            android:textColor="@color/title_main"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/img_Reload"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_marginEnd="@dimen/_13sdp"
+            android:src="@drawable/icons_reset"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_title_calculator"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/tv_title_calculator"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/img_Recent"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_marginStart="@dimen/_13sdp"
+            android:src="@drawable/ic_recent"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_title_calculator"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/tv_title_calculator"
+            tools:ignore="MissingConstraints" />
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/bg"
+            android:fitsSystemWindows="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_title_calculator"
+            app:layout_constraintVertical_bias="0.0">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/bg_calculator"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/bg"
+                android:paddingBottom="@dimen/_17ssp"
+                tools:context=".ui.fragment.CalculatorFragment">
+
+
+
+                <TextView
+                    android:id="@+id/tv_Time"
+                    style="@style/tv_item"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:text="@string/tv_time_calculator"
+                    android:textColor="@color/item_main"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/tv_Date"
+                    style="@style/tv_item_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_35sdp"
+                    android:layout_marginHorizontal="@dimen/_13sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:background="@drawable/custom_bg_tv"
+                    android:padding="@dimen/_4sdp"
+                    android:text="8 December 2023"
+                    android:textColor="@color/tv_color_blue"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tv_Time"
+                    tools:ignore="MissingConstraints" />
+
+                <ImageView
+                    android:id="@+id/img_DatePicker"
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:layout_marginEnd="@dimen/_4sdp"
+                    android:src="@drawable/ic_date_picker"
+                    app:layout_constraintBottom_toBottomOf="@id/tv_Date"
+                    app:layout_constraintEnd_toEndOf="@id/tv_Date"
+                    app:layout_constraintTop_toTopOf="@id/tv_Date"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/tv_Gender"
+                    style="@style/tv_item"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/tv_gender_calculator"
+                    android:textColor="@color/item_main"
+                    app:layout_constraintTop_toBottomOf="@id/tv_Date"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteX="0dp" />
+
+                <LinearLayout
+                    android:id="@+id/Male"
+                    android:layout_width="@dimen/_130sdp"
+                    android:layout_height="@dimen/_60sdp"
+                    android:layout_marginStart="@dimen/_13sdp"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:background="@drawable/bg_gender_select"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tv_Gender"
+                    tools:ignore="MissingConstraints">
+
+                    <ImageView
+                        android:id="@+id/img_male"
+                        android:layout_width="@dimen/_20sdp"
+                        android:layout_height="@dimen/_20sdp"
+                        android:src="@drawable/ic_male_select" />
+
+                    <TextView
+                        android:id="@+id/tv_male"
+                        style="@style/tv_item_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_3sdp"
+                        android:text="@string/tv_male"
+                        android:textColor="@color/white" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/Female"
+                    android:layout_width="@dimen/_130sdp"
+                    android:layout_height="@dimen/_60sdp"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:layout_marginEnd="@dimen/_13sdp"
+                    android:background="@drawable/bg_gender_unselect"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tv_Gender"
+                    tools:ignore="MissingConstraints">
+
+                    <ImageView
+                        android:id="@+id/img_female"
+                        android:layout_width="@dimen/_20sdp"
+                        android:layout_height="@dimen/_20sdp"
+                        android:src="@drawable/ic_female_unselect" />
+
+                    <TextView
+                        android:id="@+id/tv_female"
+                        style="@style/tv_item_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_3sdp"
+                        android:text="@string/tv_female"
+                        android:textColor="@color/item_main" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_Age"
+                    style="@style/tv_item"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_18sdp"
+                    android:text="@string/tv_age_calculator"
+                    android:textColor="@color/item_main"
+                    app:layout_constraintTop_toBottomOf="@id/Male"
+                    tools:ignore="MissingConstraints" />
+
+                <ImageView
+                    android:id="@+id/img_bg_number_picker"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_70sdp"
+                    android:layout_marginHorizontal="@dimen/_13sdp"
+                    android:layout_marginTop="@dimen/_6sdp"
+                    android:src="@drawable/bg_numberpicker"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tv_Age" />
+
+                <com.shawnlin.numberpicker.NumberPicker
+                    android:id="@+id/number_picker"
+                    style="@style/tv_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_40sdp"
+                    android:layout_centerInParent="true"
+                    android:layout_marginHorizontal="@dimen/_20sdp"
+                    app:layout_constraintBottom_toBottomOf="@id/img_bg_number_picker"
+                    app:layout_constraintEnd_toEndOf="@id/img_bg_number_picker"
+                    app:layout_constraintStart_toStartOf="@id/img_bg_number_picker"
+                    app:layout_constraintTop_toTopOf="@id/img_bg_number_picker"
+                    app:np_dividerColor="#00000000"
+                    app:np_dividerDistance="@dimen/_30sdp"
+                    app:np_fadingEdgeStrength="0"
+                    app:np_max="150"
+                    app:np_min="1"
+                    app:np_orientation="horizontal"
+                    app:np_selectedTextColor="@color/tv_color_blue"
+                    app:np_selectedTextSize="@dimen/_25sdp"
+                    app:np_textColor="@color/number_picker"
+                    app:np_textSize="@dimen/_25sdp"
+                    app:np_value="20"
+                    app:np_wheelItemCount="5"
+                    app:np_width="@dimen/_150sdp"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/tv_weight"
+                    style="@style/tv_item"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_13sdp"
+                    android:layout_marginTop="@dimen/_20sdp"
+                    android:text="@string/tv_weight_calculator"
+                    android:textColor="@color/item_main"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/number_picker"
+                    tools:ignore="MissingConstraints" />
+
+                <com.shawnlin.numberpicker.NumberPicker
+                    android:id="@+id/number_picker_weight"
+                    style="@style/tv_title"
+                    android:layout_width="@dimen/_35sdp"
+                    android:layout_height="@dimen/_40sdp"
+                    android:layout_centerInParent="true"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    app:layout_constraintBottom_toBottomOf="@+id/edt_Weight"
+                    app:layout_constraintStart_toEndOf="@+id/edt_Weight"
+                    app:layout_constraintTop_toTopOf="@+id/edt_Weight"
+                    app:np_dividerColor="#00000000"
+                    app:np_dividerDistance="@dimen/_30sdp"
+                    app:np_fadingEdgeStrength="0"
+                    app:np_itemSpacing="-8dp"
+                    app:np_selectedTextColor="@color/tv_color_blue"
+                    app:np_selectedTextSize="@dimen/_6sdp"
+                    app:np_textColor="@color/number_picker_2"
+                    app:np_textSize="@dimen/_4sdp"
+                    app:np_value="2"
+                    app:np_wheelItemCount="2"
+                    app:np_width="@dimen/_150sdp"
+                    tools:ignore="MissingConstraints" />
+
+                <EditText
+                    android:id="@+id/edt_Weight"
+                    android:layout_width="@dimen/_105sdp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_13sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:background="@drawable/custom_bg_tv"
+                    android:fontFamily="@font/poppins_bold"
+                    android:gravity="center"
+                    android:hint="00.0"
+                    android:imeOptions="actionDone"
+                    android:inputType="numberDecimal"
+                    android:maxLength="5"
+                    android:paddingHorizontal="@dimen/_6sdp"
+                    android:paddingTop="@dimen/_6ssp"
+                    android:textColor="@color/tv_color_blue"
+                    android:textColorHint="#8051A8FF"
+                    android:textCursorDrawable="@drawable/cursor"
+                    android:textSize="@dimen/_25sdp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tv_weight"
+                    tools:ignore="Autofill,HardcodedText,TextFields" />
+
+                <androidx.constraintlayout.widget.Guideline
+                    android:id="@+id/guideline"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintGuide_percent="0.5" />
+
+                <TextView
+                    android:id="@+id/tv_Height"
+                    style="@style/tv_item"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_13sdp"
+                    android:layout_marginTop="@dimen/_20sdp"
+                    android:text="@string/tv_height_calculator"
+                    android:textColor="@color/item_main"
+                    app:layout_constraintStart_toStartOf="@id/guideline"
+                    app:layout_constraintTop_toBottomOf="@id/number_picker"
+                    tools:ignore="MissingConstraints" />
+
+                <com.shawnlin.numberpicker.NumberPicker
+                    android:id="@+id/number_picker_Height"
+                    style="@style/tv_title"
+                    android:layout_width="@dimen/_35sdp"
+                    android:layout_height="@dimen/_40sdp"
+                    android:layout_centerInParent="true"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    app:layout_constraintBottom_toBottomOf="@+id/edt_Height"
+                    app:layout_constraintStart_toEndOf="@+id/edt_Height"
+                    app:layout_constraintTop_toTopOf="@+id/edt_Height"
+                    app:np_dividerColor="#00000000"
+                    app:np_dividerDistance="@dimen/_30sdp"
+                    app:np_fadingEdgeStrength="0"
+                    app:np_itemSpacing="-8dp"
+                    app:np_selectedTextColor="@color/tv_color_blue"
+                    app:np_selectedTextSize="@dimen/_6sdp"
+                    app:np_textColor="@color/number_picker_2"
+                    app:np_textSize="@dimen/_4sdp"
+                    app:np_value="2"
+                    app:np_wheelItemCount="2"
+                    app:np_width="@dimen/_150sdp"
+                    tools:ignore="MissingConstraints" />
+
+                <EditText
+                    android:id="@+id/edt_Height"
+                    android:layout_width="@dimen/_105sdp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_13sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:background="@drawable/custom_bg_tv"
+                    android:fontFamily="@font/poppins_bold"
+                    android:gravity="center"
+                    android:hint="00.0"
+                    android:imeOptions="actionDone"
+                    android:inputType="numberDecimal"
+                    android:maxLength="5"
+                    android:paddingHorizontal="@dimen/_6sdp"
+                    android:paddingTop="@dimen/_6ssp"
+                    android:textColor="@color/tv_color_blue"
+                    android:textColorHint="#8051A8FF"
+                    android:textCursorDrawable="@drawable/cursor"
+                    android:textSize="@dimen/_25sdp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="@id/guideline"
+                    app:layout_constraintTop_toBottomOf="@id/tv_weight"
+                    tools:ignore="MissingConstraints" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btn_calculator"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/_40sdp"
+                    android:layout_marginTop="36dp"
+                    android:background="@drawable/custom_bg_button"
+                    android:fontFamily="@font/poppins_medium"
+                    android:gravity="center"
+                    android:text="@string/btn_calculator"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white_fff"
+                    android:layout_marginBottom="@dimen/_200sdp"
+                    android:textSize="@dimen/_13ssp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.509"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/edt_Weight"
+                    tools:ignore="MissingConstraints" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.core.widget.NestedScrollView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

@@ -1,0 +1,98 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+    id 'kotlin-kapt'
+}
+
+android {
+    namespace 'com.example.bmicalculator'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.example.bmicalculator"
+        minSdk 27
+        targetSdk 33
+        versionCode 1
+        versionName "1.0.0"
+        def formattedDate = new Date().format('MM.dd.yyyy')
+        archivesBaseName = "BMI_Calculator_v${versionName}_${formattedDate}"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    packagingOptions {
+        exclude 'META-INF/atomicfu.kotlin_module'
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.debug
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+    buildFeatures {
+        //noinspection DataBindingWithoutKapt
+        dataBinding true
+    }
+}
+
+dependencies {
+
+    implementation 'androidx.core:core-ktx:1.7.0'
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.11.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+
+    // For Kotlin users also add the Kotlin extensions library for Play In-App Review:
+    implementation 'com.google.android.play:review-ktx:2.0.1'
+
+    //sspsdp
+    implementation 'com.intuit.ssp:ssp-android:1.1.0'
+    implementation 'com.intuit.sdp:sdp-android:1.1.0'
+
+    implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
+    implementation 'com.jjoe64:graphview:4.2.2'
+
+    //rate
+    implementation 'com.github.ome450901:SimpleRatingBar:1.5.1'
+
+    //number picker
+    implementation 'io.github.ShawnLin013:number-picker:2.4.13'
+    //chart
+    implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
+    //rx
+    implementation 'io.reactivex.rxjava3:rxjava:3.1.5'
+
+    // Room components
+    implementation "androidx.room:room-ktx:2.6.1"
+    //noinspection KaptUsageInsteadOfKsp
+    kapt "androidx.room:room-compiler:2.6.1"
+    androidTestImplementation "androidx.room:room-testing:2.6.1"
+
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0-rc02"
+    implementation "androidx.lifecycle:lifecycle-livedata-ktx:2.7.0-rc02"
+    implementation "androidx.lifecycle:lifecycle-common-java8:2.7.0-rc02"
+    implementation 'androidx.activity:activity-ktx:1.8.2'
+    //progress
+    implementation 'com.github.Marvel999:Arc-Progressbar-lib:1.0.0'
+    implementation 'com.google.android.material:material:1.11.0'
+
+    //Navigation component (Kotlin)
+    implementation("androidx.navigation:navigation-fragment-ktx:2.7.6")
+    implementation 'com.airbnb.android:lottie:6.0.0'
+    implementation("com.tbuonomo:dotsindicator:5.0")
+
+}
+
+kapt {
+    correctErrorTypes true
+}

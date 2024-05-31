@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="@string/menu_calculator"
+        android:id="@+id/calculator"
+        android:icon="@drawable/calculator" />
+    <item
+        android:title="@string/menu_satistics"
+        android:id="@+id/statistics"
+        android:icon="@drawable/statistics"/>
+    <item
+        android:title="@string/menu_setting"
+        android:id="@+id/setting"
+        android:icon="@drawable/setting"/>
+    <item
+        android:title="@string/menu_about"
+        android:id="@+id/about"
+        android:icon="@drawable/about"/>
+</menu>
