@@ -26,7 +26,7 @@
             android:layout_marginTop="@dimen/_15sdp"
             android:backgroundTint="@color/transfer"
             android:text="@string/btn_cancel"
-            android:textColor="@color/tv_color_blue"
+            android:textColor="@color/red"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/tv_ok"
             app:layout_constraintTop_toBottomOf="@+id/rcv_filter" />
@@ -36,7 +36,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/btn_ok"
-            android:textColor="@color/tv_color_blue"
+            android:textColor="@color/title_main"
             android:layout_marginTop="@dimen/_15sdp"
             style="@style/tv_item_recent_2"
             app:layout_constraintTop_toBottomOf="@id/rcv_filter"

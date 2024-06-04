@@ -147,14 +147,14 @@
     <string name="December">December</string>
 
     <string name="tv_permission">Permission</string>
-    <string name="tv_Read_Storage">Storage</string>
+    <string name="tv_Read_Storage">Capacity</string>
     <string name="permission_setting">Setting</string>
     <string name="requested_permission_title">Permission Required</string>
     <string name="agree">Agree</string>
     <string name="requested_permission_other_app">This action requires granting access to the device\'s status bar. Are you sure?</string>
     <string name="requested_permission_message">This feature is unavailable because this feature requires permission that you have denied. Please allow this permission from settings to proceed further.</string>
     <string name="tv_notification">Notifications</string>
-    <string name="tv_go">Go</string>
+    <string name="tv_go">Next</string>
     <string name="tv_des_permission"><![CDATA[<font color=\'#51A8FF\'>BMI Calculator </font> requires permission to use the Notification.]]></string>
     <string name="tv_des_permission_12"><![CDATA[<font color=\'#51A8FF\'>BMI Calculator </font> requires permission to use the Storage.]]></string>
     <string name="bmi_error">Please enter the actual value</string>

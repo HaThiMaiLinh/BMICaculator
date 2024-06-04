@@ -26,7 +26,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/tv_des_content_adults"
-                android:textColor="@color/tv_color_blue"
+                android:textColor="@color/title_main"
                 android:layout_marginEnd="@dimen/_2sdp"
                 style="@style/tv_des_about"/>
 
@@ -36,7 +36,7 @@
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintStart_toStartOf="@id/guideline"
                 android:text="@string/tv_des_age_adults"
-                android:textColor="@color/tv_color_blue"
+                android:textColor="@color/title_main"
                 style="@style/tv_des_age_about"/>
         </LinearLayout>
 

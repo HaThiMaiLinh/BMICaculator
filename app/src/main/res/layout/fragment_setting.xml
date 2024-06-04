@@ -4,7 +4,7 @@
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/bg"
+        android:background="@color/blue"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         tools:context=".ui.fragment.SettingFragment">
 
@@ -27,7 +27,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/_15sdp"
             tools:listitem="@layout/item_setting"
-            android:background="@drawable/custom_bg_tv"
+            android:background="@color/blue"
             app:layout_constraintTop_toBottomOf="@id/tv_title_setting"/>
 
     </androidx.constraintlayout.widget.ConstraintLayout>

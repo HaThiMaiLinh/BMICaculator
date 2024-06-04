@@ -8,7 +8,7 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:gravity="center"
-        android:background="#00000000"
+        android:background="@color/blue"
         >
 
         <LinearLayout
@@ -42,7 +42,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:textColor="#A9B0BE"
                 style="@style/tv_des_age_about"
                 android:text="@string/des_rate_0" />
 
@@ -68,15 +67,15 @@
                 android:id="@+id/btnRate"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/_39sdp"
-                android:background="@drawable/custom_buton_rate"
-                app:backgroundTint="@color/tv_color_blue"
-                android:fontFamily="@font/poppins_medium"
-                android:textSize="@dimen/_11ssp"
-                android:textColor="@color/white"
-                android:layout_marginTop="@dimen/_15sdp"
-                android:textAllCaps="false"
                 android:layout_marginVertical="@dimen/_8sdp"
-                android:text="@string/btn_rate"/>
+                android:layout_marginTop="@dimen/_15sdp"
+                android:background="@drawable/custom_bg_button"
+                android:fontFamily="@font/poppins_medium"
+                android:text="@string/btn_rate"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_11ssp"
+                />
 
             <TextView
                 android:id="@+id/tv_Exit"

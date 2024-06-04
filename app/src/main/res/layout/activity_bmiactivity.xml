@@ -5,7 +5,9 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".ui.activity.BMIActivity">
+        tools:context=".ui.activity.BMIActivity"
+        android:background="@color/blue"
+        >
 
         <TextView
             android:id="@+id/tv_title_bmi"
@@ -63,17 +65,21 @@
             app:layout_constraintEnd_toEndOf="parent"
             style="@style/tv_time_bmi"
             android:text="6.12.2023"
-            android:textColor="@color/black"
+            android:textColor="@color/blue94A7D8"
             app:layout_constraintTop_toBottomOf="@id/tv_title_bmi"/>
 
         <ImageView
+
             android:id="@+id/img_graph_bmi"
             android:layout_width="match_parent"
             android:layout_height="@dimen/_150sdp"
+            android:layout_marginHorizontal="@dimen/_5sdp"
             android:src="@drawable/graph_about_adults"
-            app:layout_constraintTop_toBottomOf="@id/tvTime_Bmi"
+            android:background="@drawable/custom_bg_img"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"/>
+            app:layout_constraintTop_toBottomOf="@id/tvTime_Bmi" />
 
         <androidx.constraintlayout.widget.Guideline
             android:id="@+id/guideline"
@@ -130,13 +136,15 @@
             android:layout_width="match_parent"
             android:layout_height="@dimen/_60sdp"
             android:layout_margin="@dimen/_6sdp"
-            android:background="@drawable/custom_bg_tv"
+            android:background="@drawable/custom_bg_img"
             android:gravity="center"
             android:orientation="horizontal"
             android:padding="@dimen/_10sdp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/tv_status_bmi">
+            app:layout_constraintTop_toBottomOf="@id/tv_status_bmi"
+
+            >
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -265,7 +273,7 @@
             app:layout_constraintStart_toStartOf="parent"
             android:layout_margin="@dimen/_6sdp"
             android:text="@string/tv_normal_weight"
-            android:textColor="@color/tv_item"
+            android:textColor="@color/blue94A7D8"
             style="@style/tv_item_2"
             app:layout_constraintTop_toBottomOf="@+id/linearLayout3" />
 
@@ -276,7 +284,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             android:layout_margin="@dimen/_6sdp"
             android:text="@string/tv_normal_weight_index"
-            android:textColor="@color/tv_color_blue"
+            android:textColor="@color/blue94A7D8"
             style="@style/tv_item_2"
             app:layout_constraintTop_toBottomOf="@+id/linearLayout3" />
 
@@ -287,7 +295,8 @@
             app:layout_constraintStart_toStartOf="parent"
             android:layout_margin="@dimen/_6sdp"
             android:text="@string/tv_difference"
-            android:textColor="@color/tv_item"
+
+            android:textColor="@color/blue94A7D8"
             style="@style/tv_item_2"
             app:layout_constraintTop_toBottomOf="@+id/tv_normal_weight" />
 
@@ -298,7 +307,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             android:layout_margin="@dimen/_6sdp"
             android:text="@string/kg"
-            android:textColor="@color/tv_color_blue"
+            android:textColor="@color/blue94A7D8"
             style="@style/tv_item_2"
             app:layout_constraintTop_toBottomOf="@+id/tv_normal_weight_index"/>
 
@@ -307,17 +316,18 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/_35sdp"
+            android:layout_marginTop="40dp"
             android:background="@drawable/custom_bg_button"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
+            android:fontFamily="@font/abril_fatface"
             android:gravity="center"
             android:text="@string/btn_save"
-            android:textColor="@color/white"
             android:textAllCaps="false"
-            android:fontFamily="@font/poppins"
+            android:textColor="@color/white"
             android:textSize="@dimen/_13ssp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/tv_difference"
-            tools:ignore="MissingConstraints"/>
+            tools:ignore="MissingConstraints" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

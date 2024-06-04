@@ -11,7 +11,7 @@
             android:id="@+id/frame_fragment"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:background="@color/bg"
+            android:background="@color/blue"
             app:layout_constraintBottom_toTopOf="@+id/linearLayout"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -40,12 +40,14 @@
                 android:id="@+id/bottom_nav_bar"
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize"
-                android:background="@color/white_fff"
+                android:background="@drawable/custom_tem_language"
                 android:textSize="@dimen/_12ssp"
                 app:itemIconTint="@drawable/selector_bottom_navigation"
                 app:itemTextColor="@drawable/selector_text_nav"
                 app:labelVisibilityMode="labeled"
-                app:menu="@menu/menu"/>
+                app:menu="@menu/menu"
+                android:layout_marginHorizontal="@dimen/_5sdp"
+                />
         </LinearLayout>
 
     </androidx.constraintlayout.widget.ConstraintLayout>

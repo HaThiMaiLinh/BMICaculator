@@ -4,7 +4,9 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/ic_setting">
+        android:id="@+id/ic_setting"
+        android:background="@color/blue94A7D8"
+        >
 
 
         <ImageView

@@ -4,7 +4,9 @@
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".ui.fragment.TeenagersFragment">
+        tools:context=".ui.fragment.TeenagersFragment"
+        android:background="@color/blue"
+        >
 
         <androidx.constraintlayout.widget.Guideline
             android:id="@+id/guideline"
@@ -27,7 +29,7 @@
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintEnd_toStartOf="@id/guideline"
                 android:text="@string/tv_des_content_teenagers"
-                android:textColor="@color/tv_color_blue"
+                android:textColor="@color/title_main"
                 android:layout_marginEnd="@dimen/_2sdp"
                 style="@style/tv_des_about"/>
 
@@ -37,7 +39,7 @@
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintStart_toStartOf="@id/guideline"
                 android:text="@string/tv_des_age_teenagers"
-                android:textColor="@color/tv_color_blue"
+                android:textColor="@color/title_main"
                 style="@style/tv_des_age_about"/>
         </LinearLayout>
 
@@ -50,7 +52,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/tv_des_adults"
-            android:src="@drawable/graph_teenagers"/>
+            android:src="@drawable/graph_about_adults"/>
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/constraintLayout"

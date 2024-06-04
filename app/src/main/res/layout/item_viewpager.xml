@@ -29,7 +29,7 @@
             android:layout_height="wrap_content"
             android:gravity="top"
             android:text="@string/tv_welcome"
-            android:textColor="#A6080C2F"
+            android:textColor="@color/blue94A7D8"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageView" />
@@ -42,7 +42,7 @@
             android:gravity="top"
             android:text="@string/title_tutorial1"
             android:layout_margin="@dimen/_4sdp"
-            android:textColor="@color/tv_color_blue"
+            android:textColor="@color/title_main"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/tv_welcome_tutorial" />
@@ -58,7 +58,7 @@
             android:maxLines="4"
             style="@style/tv_item_2"
             app:layout_constraintStart_toStartOf="parent"
-            android:textColor="#A6080C2F"
+            android:textColor="@color/blue94A7D8"
             app:layout_constraintTop_toBottomOf="@+id/tv_title_tutorial"/>
 
     </androidx.constraintlayout.widget.ConstraintLayout>

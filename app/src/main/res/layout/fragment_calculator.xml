@@ -6,7 +6,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/bg">
+        android:background="@color/blue">
 
         <TextView
             android:id="@+id/tv_title_calculator"
@@ -59,7 +59,7 @@
                 android:id="@+id/bg_calculator"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/bg"
+                android:background="@color/blue"
                 android:paddingBottom="@dimen/_17ssp"
                 tools:context=".ui.fragment.CalculatorFragment">
 
@@ -121,7 +121,7 @@
                     android:layout_height="@dimen/_60sdp"
                     android:layout_marginStart="@dimen/_13sdp"
                     android:layout_marginTop="@dimen/_8sdp"
-                    android:background="@drawable/bg_gender_select"
+                    android:background="@drawable/custom_tem_language"
                     android:gravity="center"
                     android:orientation="vertical"
                     app:layout_constraintStart_toStartOf="parent"
@@ -234,46 +234,23 @@
                     app:layout_constraintTop_toBottomOf="@id/number_picker"
                     tools:ignore="MissingConstraints" />
 
-                <com.shawnlin.numberpicker.NumberPicker
-                    android:id="@+id/number_picker_weight"
-                    style="@style/tv_title"
-                    android:layout_width="@dimen/_35sdp"
-                    android:layout_height="@dimen/_40sdp"
-                    android:layout_centerInParent="true"
-                    android:layout_marginTop="@dimen/_15sdp"
-                    app:layout_constraintBottom_toBottomOf="@+id/edt_Weight"
-                    app:layout_constraintStart_toEndOf="@+id/edt_Weight"
-                    app:layout_constraintTop_toTopOf="@+id/edt_Weight"
-                    app:np_dividerColor="#00000000"
-                    app:np_dividerDistance="@dimen/_30sdp"
-                    app:np_fadingEdgeStrength="0"
-                    app:np_itemSpacing="-8dp"
-                    app:np_selectedTextColor="@color/tv_color_blue"
-                    app:np_selectedTextSize="@dimen/_6sdp"
-                    app:np_textColor="@color/number_picker_2"
-                    app:np_textSize="@dimen/_4sdp"
-                    app:np_value="2"
-                    app:np_wheelItemCount="2"
-                    app:np_width="@dimen/_150sdp"
-                    tools:ignore="MissingConstraints" />
+
 
                 <EditText
                     android:id="@+id/edt_Weight"
                     android:layout_width="@dimen/_105sdp"
-                    android:layout_height="wrap_content"
+                    android:layout_height="@dimen/_50sdp"
                     android:layout_marginStart="@dimen/_13sdp"
                     android:layout_marginTop="@dimen/_10sdp"
                     android:background="@drawable/custom_bg_tv"
-                    android:fontFamily="@font/poppins_bold"
+                    android:fontFamily="@font/abril_fatface"
                     android:gravity="center"
-                    android:hint="00.0"
                     android:imeOptions="actionDone"
                     android:inputType="numberDecimal"
                     android:maxLength="5"
                     android:paddingHorizontal="@dimen/_6sdp"
                     android:paddingTop="@dimen/_6ssp"
-                    android:textColor="@color/tv_color_blue"
-                    android:textColorHint="#8051A8FF"
+                    android:textColor="@color/title_main"
                     android:textCursorDrawable="@drawable/cursor"
                     android:textSize="@dimen/_25sdp"
                     android:textStyle="bold"
@@ -301,46 +278,22 @@
                     app:layout_constraintTop_toBottomOf="@id/number_picker"
                     tools:ignore="MissingConstraints" />
 
-                <com.shawnlin.numberpicker.NumberPicker
-                    android:id="@+id/number_picker_Height"
-                    style="@style/tv_title"
-                    android:layout_width="@dimen/_35sdp"
-                    android:layout_height="@dimen/_40sdp"
-                    android:layout_centerInParent="true"
-                    android:layout_marginTop="@dimen/_15sdp"
-                    app:layout_constraintBottom_toBottomOf="@+id/edt_Height"
-                    app:layout_constraintStart_toEndOf="@+id/edt_Height"
-                    app:layout_constraintTop_toTopOf="@+id/edt_Height"
-                    app:np_dividerColor="#00000000"
-                    app:np_dividerDistance="@dimen/_30sdp"
-                    app:np_fadingEdgeStrength="0"
-                    app:np_itemSpacing="-8dp"
-                    app:np_selectedTextColor="@color/tv_color_blue"
-                    app:np_selectedTextSize="@dimen/_6sdp"
-                    app:np_textColor="@color/number_picker_2"
-                    app:np_textSize="@dimen/_4sdp"
-                    app:np_value="2"
-                    app:np_wheelItemCount="2"
-                    app:np_width="@dimen/_150sdp"
-                    tools:ignore="MissingConstraints" />
 
                 <EditText
                     android:id="@+id/edt_Height"
                     android:layout_width="@dimen/_105sdp"
-                    android:layout_height="wrap_content"
+                    android:layout_height="@dimen/_50sdp"
                     android:layout_marginStart="@dimen/_13sdp"
                     android:layout_marginTop="@dimen/_10sdp"
                     android:background="@drawable/custom_bg_tv"
                     android:fontFamily="@font/poppins_bold"
                     android:gravity="center"
-                    android:hint="00.0"
                     android:imeOptions="actionDone"
                     android:inputType="numberDecimal"
                     android:maxLength="5"
                     android:paddingHorizontal="@dimen/_6sdp"
                     android:paddingTop="@dimen/_6ssp"
-                    android:textColor="@color/tv_color_blue"
-                    android:textColorHint="#8051A8FF"
+                    android:textColor="@color/title_main"
                     android:textCursorDrawable="@drawable/cursor"
                     android:textSize="@dimen/_25sdp"
                     android:textStyle="bold"
